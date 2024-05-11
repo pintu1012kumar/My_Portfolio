@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul li {
+    cursor: pointer;
+}
+
+.circular-background {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #3498db; /* Change this to your desired background color */
+    border-radius: 50%;
+    animation: rotate-bubble 2s infinite linear; /* Apply animation */
+  }
+  
+@keyframes rotate-bubble {
+    0% {
+        transform: rotate(60deg);
+    }
+    50% {
+        transform: scale(1.01);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.navbar--content {
+    color: #1c1e53;
+    cursor: pointer;
+}
+.navbar--active-content {
+    color: #5e3bee;
+}

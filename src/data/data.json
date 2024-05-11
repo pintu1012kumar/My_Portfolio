@@ -1,0 +1,29 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "image": "../assets/shopping-list.jpg",
+        "title": "Shopping List",
+        "demoUrl": "https://shopping-list-project-js.netlify.app/",
+        "gitUrl": "https://github.com/wasif190/javascript-projects/tree/main/01-shopping-list",
+        "description": "Manage items with Add, Remove, Clear, Filter functions. Click to update. Utilize localStorage with validation checks."
+      },
+      {
+        "id": 2,
+        "image": "../assets/password-gen.jpg",
+        "title": "Password Generator",
+        "demoUrl": "https://password-generatorr-project-js.netlify.app/",
+        "gitUrl": "https://github.com/wasif190/javascript-projects/tree/main/02-password-generator",
+        "description": "Generate random password, select range, include uppercase, lowercase, numbers, symbols. Copy to clipboard, assess strength."
+      },
+      {
+        "id": 3,
+        "image": "../assets/weather-app.jpg",
+        "title": "Weather Application",
+        "demoUrl": "https://weather-app-projectt-js.netlify.app/",
+        "gitUrl": "https://github.com/wasif190/javascript-projects/tree/main/03-weather-app",
+        "description": "Display weather with location access granted. Option to search for weather conditions available."
+      }
+    ]
+}
+  
