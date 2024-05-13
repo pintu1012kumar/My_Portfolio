@@ -1,6 +1,14 @@
 {
     "projects": [
       {
+        "id": 5,
+        "image": "../assets/food.jpg",
+        "title": "Recipi Tracker",
+        "demoUrl": "https://recipe-trackerr.vercel.app/",
+        "gitUrl": "https://github.com/wasif190/react-projects/tree/master/recipe-tracker",
+        "description": "A react recipe tracker application"
+      },
+      {
         "id": 1,
         "image": "../assets/shopp-cart.jpg",
         "title": "Shopping Cart",

@@ -33,7 +33,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className={`mobile:px-[11%] px-[7%] relative lg:py-4 py-3 flex items-center justify-between text-[1.1rem] ${navActive? 'bg-[#f1f1f1]' : ''}`}>
+    <nav className={`mobile:px-[11%] px-[7%] fixed top-0 left-0 right-0 bg-white z-50 border-b lg:py-4 py-3 flex items-center justify-between text-[1.1rem] ${navActive? 'bg-[#f1f1f1]' : ''}`}>
       <header>
         <h1 className='text-3xl font-medium'>Wasif</h1>
       </header>
