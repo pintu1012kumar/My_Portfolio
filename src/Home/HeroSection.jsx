@@ -8,7 +8,7 @@ import tailwindLogo from '../assets/tailwind.png'
 
 function HeroSection() {
   return (
-    <main id='heroSection' className='mobile:px-[11%] px-[7%] sm:pt-[140px] pt-[40px] text-[1.1rem]'>
+    <main id='heroSection' className='mobile:px-[11%] px-[7%] pt-[140px] text-[1.1rem]'>
       <section className='flex justify-between items-center lg:gap-[11rem] gap-10 lg:flex-row flex-col-reverse'>
         <div className='lg:text-start text-center'>
           {/* <p className='text-2xl text-[#515151]'>Hey, I'm wasif</p> */}
@@ -21,8 +21,8 @@ function HeroSection() {
             <button><a href="https://github.com/wasif190"><ion-icon name="logo-github"></ion-icon></a></button>
           </div>
         </div>
-        <div className='border-[1.5px] border-black rounded-full'>
-          <img src={Hero_img} className='lg:w-[550px] xl:w-[450px] mobile:w-[300px] w-[250px] rounded-full'/>
+        <div className='border-[1.5px] border-black rounded-full blob-container'>
+          <img src={Hero_img} className='blob-img lg:w-[550px] xl:w-[450px] mobile:w-[300px] w-[250px] rounded-full'/>
         </div>
       </section>
 

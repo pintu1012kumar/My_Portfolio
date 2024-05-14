@@ -35,3 +35,25 @@ ul li {
 .navbar--active-content {
     color: #5e3bee;
 }
+
+
+
+@keyframes blob {
+    0% {
+      border-radius: 50%;
+      transform: scale(1);
+    }
+    50% {
+      border-radius: 15% 5% 20% 7% / 20% 5% 13% 10%;
+      transform: scale(1.1);
+    }
+    100% {
+      border-radius: 50%;
+      transform: scale(1);
+    }
+}
+  
+.blob-container {
+    animation: blob 5s infinite alternate;
+}
+  
