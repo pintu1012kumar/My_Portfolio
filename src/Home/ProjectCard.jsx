@@ -14,7 +14,10 @@ function ProjectCard({project}) {
         <p className='py-3'>{project.description}</p>
       </div>
       <div className='flex gap-8 items-center pt-3'>
-        <button className='p-2 border-[1.5px] border-gray-400 rounded-3xl w-full transition-all duration-300 hover:bg-[#333] hover:text-white'>
+        <button 
+          className='p-2 border-[1.5px] border-gray-400 rounded-3xl w-full transition-all duration-300 hover:bg-[#333] hover:text-white'
+          onClick={() => redirectToLink(project.gitUrl)}
+        >
             Github
         </button>
         <button

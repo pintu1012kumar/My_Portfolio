@@ -21,8 +21,8 @@ function HeroSection() {
             <button><a href="https://github.com/wasif190"><ion-icon name="logo-github"></ion-icon></a></button>
           </div>
         </div>
-        <div className='border-[1.5px] border-black rounded-full blob-container'>
-          <img src={Hero_img} className='blob-img lg:w-[550px] xl:w-[450px] mobile:w-[300px] w-[250px] rounded-full'/>
+        <div className='border-[1.5px] border-black rounded-full'>
+          <img src={Hero_img} className='lg:w-[550px] xl:w-[450px] mobile:w-[300px] w-[250px] rounded-full'/>
         </div>
       </section>
 
