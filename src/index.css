@@ -37,6 +37,7 @@ ul li:hover {
     background-position: center;
     background-size: cover;
     animation: blob 8s ease-in-out infinite 1s;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
 }
 
 .navbar--active-content {
