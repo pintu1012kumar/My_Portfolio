@@ -2,15 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 ul li {
     cursor: pointer;
 }
 
-.navbar--content {
-    color: #1c1e53;
-    cursor: pointer;
+ul li:hover {
+    color: #7c7c7c;
 }
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    width: 100%;
+}
+
+.nav-list i {
+    display: none;
+}
+
+.profile-img {
+    background: url(../src/assets/hero-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: blob 8s ease-in-out infinite 1s;
+}
+
 .navbar--active-content {
-    color: #5e3bee;
+    color: rgb(43, 0, 255);
+}
+
+@keyframes blob {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-list i {
+        display: block;
+    }
+}
+
+
+.slick-dots {
+    bottom: -5rem;
 }
 

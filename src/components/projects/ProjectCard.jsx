@@ -7,11 +7,11 @@ function ProjectCard({project}) {
   };
 
   return (
-    <div className='w-full h-full border-[1.6px] rounded-xl bg-[#f9f9f9] p-4'>
+    <div className='text-start mx-auto border rounded-xl bg-[#fff] p-4'>
       <img src={project.image} className='rounded-lg aspect-square'/>
       <div className='pt-3'>
         <h1 className='text-2xl font-medium'>{project.title}</h1>
-        <p className='py-3'>{project.description}</p>
+        <p className='py-3'>{project.description.split(' ').slice(0, 3).join(' ')}...</p>
       </div>
       <div className='flex gap-8 items-center pt-3'>
         <button 

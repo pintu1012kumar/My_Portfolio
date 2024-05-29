@@ -7,7 +7,11 @@ export default {
   theme: {
     extend: {
       screens: {
-        'mobile': '400px'
+        'base': '900px',
+        'mobile': '405px'
+      },
+      fontFamily: {
+        sansp: ['Poppins', 'ui-sans-serif', 'system-ui'],
       },
     },
   },

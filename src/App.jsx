@@ -1,10 +1,15 @@
 import React from 'react'
-import Home from './Home/Home'
+import { About, Contact, Header, Home, Projects, Skills } from './components'
 
 function App() {
   return (
-    <div>
+    <div className='bg-[#f8f8f8]'>
+      <Header/>
       <Home/>
+      <About/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
     </div>
   )
 }
