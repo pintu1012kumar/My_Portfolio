@@ -13,12 +13,12 @@ function Header() {
     }
     
     return (
-        <header className={`px-[4%] z-50 fixed top-0 left-0 right-0 bg-[#222] text-white base:px-[10%] py-4 ${isNavActive ? '': 'border-b border-[#a2a2a2]'}`}>
+        <header className={`px-[4%] z-50 fixed top-0 left-0 right-0 bg-white base:px-[10%] py-4 ${isNavActive ? '': 'border-b'}`}>
             <nav className='flex justify-between items-end'>
                 <h1 className='text-3xl'>Wasif</h1>
 
                 <ul className={`items-center gap-[3rem] md:flex 
-                    ${isNavActive ? 'absolute w-full top-[4.1rem] bg-[#222] shadow-sm shadow-[#ccc] left-0 p-7 px-[4%] grid grid-cols-3 rounded-b-3xl transition-all': 'hidden'}`}>
+                    ${isNavActive ? 'absolute w-full top-[4.1rem] shadow left-0 p-7 px-[4%] bg-white grid grid-cols-3 rounded-b-3xl transition-all': 'hidden'}`}>
                     <Link
                         onClick={closeMenu}
                         activeClass="navbar--active-content"
@@ -30,7 +30,7 @@ function Header() {
                         className="navbar--content"
                     >
                         <li className='nav-list'>
-                            <i className="uil uil-estate nav-icon"></i> Home
+                            <i className="uil uil-user nav-icon"></i> Home
                         </li>
                     </Link>
                     <Link
@@ -58,7 +58,7 @@ function Header() {
                         className="navbar--content"
                     >
                         <li className='nav-list'>
-                            <i className="uil uil-file-alt nav-icon"></i>Skills
+                            <i className="uil uil-user nav-icon"></i>Skills
                         </li>
                     </Link>
                     <Link
@@ -72,7 +72,7 @@ function Header() {
                         className="navbar--content"
                     >
                         <li className='nav-list'>
-                            <i className="uil uil-scenery nav-icon"></i>Portfolio
+                            <i className="uil uil-user nav-icon"></i>Portfolio
                         </li>
                     </Link>
                     <Link
@@ -86,7 +86,7 @@ function Header() {
                         className="navbar--content"
                     >
                         <li className='nav-list'>
-                            <i className="uil uil-message nav-icon"></i>Contact
+                            <i className="uil uil-user nav-icon"></i>Contact
                         </li>
                     </Link>
                 </ul>

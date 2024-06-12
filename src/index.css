@@ -41,7 +41,7 @@ ul li:hover {
 }
 
 .navbar--active-content {
-    color: rgb(177, 177, 177);
+    color: rgb(43, 0, 255);
 }
 
 @keyframes blob {
@@ -67,21 +67,3 @@ ul li:hover {
     bottom: -5rem;
 }
 
-.slick-arrow {
-    opacity: 1;
-}
-
-.slick-prev {
-    left: -32px;
-}
-
-.slick-arrow:before {
-    font-size: 28px;
-}
-
-.group:hover .text-desc {
-    opacity: 1;
-    visibility: visible;
-    background: linear-gradient(rgba(0,0,0, 0.100), rgba(0,0,0, 0.80));
-}
-  
