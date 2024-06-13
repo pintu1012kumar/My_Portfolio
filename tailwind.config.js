@@ -6,13 +6,16 @@ export default {
   ],
   theme: {
     extend: {
-      screens: {
-        'base': '900px',
-        'mobile': '405px'
-      },
       fontFamily: {
-        sansp: ['Poppins', 'ui-sans-serif', 'system-ui'],
+        "montser" : ["Montserrat Alternates", "sans-serif"]
       },
+      colors: {
+        card: "#1e1e1e",
+        cardBorder: "#676767",
+      },
+      screens: {
+        mwidth: '400px'
+      }
     },
   },
   plugins: [],

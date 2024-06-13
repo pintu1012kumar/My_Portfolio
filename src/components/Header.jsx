@@ -13,12 +13,12 @@ function Header() {
     }
     
     return (
-        <header className={`px-[4%] z-50 fixed top-0 left-0 right-0 bg-white base:px-[10%] py-4 ${isNavActive ? '': 'border-b'}`}>
+        <header className={`px-[4%] z-50 fixed top-0 left-0 bg-[#222] right-0 lg:px-[10%] py-4 ${isNavActive ? '': 'border-b border-[#a2a2a2]'}`}>
             <nav className='flex justify-between items-end'>
-                <h1 className='text-3xl'>Wasif</h1>
+                <h1 className='text-3xl font-medium'>Wasif</h1>
 
-                <ul className={`items-center gap-[3rem] md:flex 
-                    ${isNavActive ? 'absolute w-full top-[4.1rem] shadow left-0 p-7 px-[4%] bg-white grid grid-cols-3 rounded-b-3xl transition-all': 'hidden'}`}>
+                <ul className={`items-center gap-[3rem] lg:flex 
+                    ${isNavActive ? 'absolute w-full top-[4.26rem] bg-[#222] border-b border-t left-0 p-7 px-[4%] lg:px-[10%] grid grid-cols-3 rounded-b-2xl transition-all': 'hidden'}`}>
                     <Link
                         onClick={closeMenu}
                         activeClass="navbar--active-content"
@@ -26,11 +26,12 @@ function Header() {
                         smooth={true}
                         offset={-70}
                         duration={400}
-                        to="homeSection"
+                        to="hero"
                         className="navbar--content"
                     >
                         <li className='nav-list'>
-                            <i className="uil uil-user nav-icon"></i> Home
+                            <i className="uil uil-estate"></i> 
+                            <span className='hover-nav'>Home</span>
                         </li>
                     </Link>
                     <Link
@@ -40,11 +41,12 @@ function Header() {
                         smooth={true}
                         offset={-70}
                         duration={400}
-                        to="aboutSection"
+                        to="about"
                         className="navbar--content"
                     >
                         <li className='nav-list'>
-                            <i className="uil uil-user nav-icon"></i>About
+                            <i className="uil uil-user"></i>
+                            <span className='hover-nav'>About</span>
                         </li>
                     </Link>
                     <Link
@@ -54,11 +56,12 @@ function Header() {
                         smooth={true}
                         offset={-70}
                         duration={400}
-                        to="Skills"
+                        to="skills"
                         className="navbar--content"
                     >
                         <li className='nav-list'>
-                            <i className="uil uil-user nav-icon"></i>Skills
+                            <i className="uil uil-file-alt"></i>
+                            <span className='hover-nav'>Skills</span>
                         </li>
                     </Link>
                     <Link
@@ -68,11 +71,12 @@ function Header() {
                         smooth={true}
                         offset={-70}
                         duration={400}
-                        to="Projects"
+                        to="projects"
                         className="navbar--content"
                     >
                         <li className='nav-list'>
-                            <i className="uil uil-user nav-icon"></i>Portfolio
+                            <i className="uil uil-scenery"></i>
+                            <span className='hover-nav'>Projects</span>
                         </li>
                     </Link>
                     <Link
@@ -82,18 +86,19 @@ function Header() {
                         smooth={true}
                         offset={-70}
                         duration={400}
-                        to="Contact"
+                        to="contact"
                         className="navbar--content"
                     >
                         <li className='nav-list'>
-                            <i className="uil uil-user nav-icon"></i>Contact
+                            <i className="uil uil-message"></i>
+                            <span className='hover-nav'>Contact</span>
                         </li>
                     </Link>
                 </ul>
 
-                <div onClick={toggleNav} className='cursor-pointer md:hidden block'>
+                <div onClick={toggleNav} className='cursor-pointer lg:hidden block text-xl'>
                     {
-                        isNavActive ? <span className='text-3xl'><i className='uil uil-times nav-close'></i></span> : <span className='text-xl'><i className="uil uil-apps"></i></span>
+                        isNavActive ? <i class="ri-close-large-line"></i>: <i class="ri-menu-line"></i>
                     }
                 </div>
             </nav>

@@ -8,27 +8,56 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
+body {
+    font-family: "Montserrat Alternates", sans-serif;
 }
 
-ul li {
-    cursor: pointer;
-}
-
-ul li:hover {
-    color: #7c7c7c;
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 0px 4%;
+    }
 }
 
 .nav-list {
     display: flex;
     align-items: center;
-    gap: .4rem;
-    width: 100%;
+    gap: 7px;
+    cursor: pointer;
 }
 
 .nav-list i {
     display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-list i {
+        display: block;
+    }
+}
+
+.hover-nav {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+
+.hover-nav::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    border-radius: 1px 1px;
+}
+
+.hover-nav:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .profile-img {
@@ -41,7 +70,7 @@ ul li:hover {
 }
 
 .navbar--active-content {
-    color: rgb(43, 0, 255);
+    color: #d4d4d4;
 }
 
 @keyframes blob {
@@ -61,9 +90,3 @@ ul li:hover {
         display: block;
     }
 }
-
-
-.slick-dots {
-    bottom: -5rem;
-}
-

@@ -2,15 +2,15 @@
     "projects": [
       {
         "id": 5,
-        "image": "../assets/food.jpg",
+        "image": "../assets/recipe-tracker.png",
         "title": "Recipi Tracker",
         "demoUrl": "https://recipe-trackerr.vercel.app/",
         "gitUrl": "https://github.com/wasif190/react-projects/tree/master/recipe-tracker",
-        "description": "A react recipe tracker application"
+        "description": "A react recipe tracker application."
       },
       {
         "id": 1,
-        "image": "../assets/shopp-cart.jpg",
+        "image": "../assets/shoping-cart.png",
         "title": "Shopping Cart",
         "demoUrl": "https://react-shopping-cart-wasif.vercel.app/",
         "gitUrl": "https://github.com/wasif190/react-shopping-cart/tree/master",
@@ -18,27 +18,19 @@
       },
       {
         "id": 2,
-        "image": "../assets/shopping-list.jpg",
+        "image": "../assets/shopping-list.png",
         "title": "Shopping List",
         "demoUrl": "https://shopping-list-wasif.vercel.app/",
         "gitUrl": "https://github.com/wasif190/javascript-projects/tree/main/01-shopping-list",
-        "description": "Manage items with Add, Remove, Clear, Filter functions. Click to update. Utilize localStorage with validation checks."
+        "description": "Manage items with Add, Remove, Clear, Filter functions. Click to update & localStorage."
       },
       {
         "id": 3,
-        "image": "../assets/password-gen.jpg",
-        "title": "Password Generator",
-        "demoUrl": "https://password-generator-wasif.vercel.app/",
-        "gitUrl": "https://github.com/wasif190/javascript-projects/tree/main/02-password-generator",
-        "description": "Generate random password, select range, include uppercase, lowercase, numbers, symbols. Copy to clipboard, assess strength."
-      },
-      {
-        "id": 4,
-        "image": "../assets/weather-app.jpg",
+        "image": "../assets/weather-app.png",
         "title": "Weather Application",
         "demoUrl": "https://weather-app-wasif.vercel.app/",
         "gitUrl": "https://github.com/wasif190/javascript-projects/tree/main/03-weather-app",
-        "description": "Display weather with location access granted. Option to search for weather conditions available."
+        "description": "Display weather with location access granted & search for weather."
       }
     ]
 }
