@@ -2,7 +2,7 @@ import React from 'react'
 
 function Skills() {
     return (
-        <main id='skills' className='md:px-[10%] px-[4%] lg:pt-[220px] pt-[150px] overflow-x-hidden'>
+        <main id='skills' className='md:px-[10%] px-[4%] lg:pt-[220px] pt-[150px] overflow-hidden'>
             <section className='text-center font-sans'>
                 <p className='text-gray-500'>Explore my</p>
                 <h1 className='text-3xl font-bold'>Skills</h1>
