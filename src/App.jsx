@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { About, Header, Hero, Skills, Projects, Contact } from './components'
+import { About, Header, Hero, Skills, Projects, Contact, Feedback } from './components'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
@@ -15,6 +15,7 @@ function App() {
       <About/>
       <Skills/>
       <Projects/>
+      <Feedback/>
       <Contact/>
     </div>
   )
