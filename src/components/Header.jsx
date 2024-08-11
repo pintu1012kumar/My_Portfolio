@@ -13,9 +13,9 @@ function Header() {
     }
     
     return (
-        <header className={`px-[4%] z-50 fixed top-0 left-0 bg-[#222] right-0 lg:px-[10%] py-4 ${isNavActive ? '': 'border-b border-[#a2a2a2]'}`}>
+        <header className={`px-[4%] z-50 fixed top-0 left-0 bg-[#585757] right-0 lg:px-[10%] py-4 ${isNavActive ? '': 'border-b border-[#a2a2a2]'}`}>
             <nav className='flex justify-between items-end'>
-                <h1 className='text-3xl font-medium'>Wasif</h1>
+                <h1 className='text-3xl font-medium'>Pintu</h1>
 
                 <ul className={`items-center gap-[3rem] lg:flex 
                     ${isNavActive ? 'absolute w-full top-[4.26rem] bg-[#222] border-b border-t left-0 p-7 px-[4%] lg:px-[10%] grid grid-cols-3 rounded-b-2xl transition-all': 'hidden'}`}>

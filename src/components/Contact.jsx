@@ -11,11 +11,15 @@ function Contact() {
             <section className='mt-8 w-full sm:flex-row flex-col md:w-[50%] mx-auto flex justify-center gap-3.5 sm:gap-[3rem] border-[1.7px] border-cardBorder rounded-xl bg-card text-gray-100 text-center p-4' data-aos="zoom-in-up">
                 <div className='flex items-center gap-2'>
                     <span className='text-2xl items-center flex mt-1'><ion-icon name="mail-outline"></ion-icon></span>
-                    <a href="mailto:wasif19010@gmail.com" className='text-lg'>wasif19010@gmail.com</a>
+                    <a href="mailto:pintu1012kumar@gmail.com" className='text-lg'>pintu1012kumar@gmail.com</a>
                 </div>
                 <div className='flex items-center gap-2'>
                     <span className='text-2xl items-center flex'><ion-icon name="logo-linkedin"></ion-icon></span>
-                    <a href="https://www.linkedin.com/in/wasif19/" className='text-lg'>LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/pintu-kumar-%F0%9F%9A%80-84a304270/" className='text-lg'>LinkedIn</a>
+                </div>
+                <div className='flex items-center gap-2'>
+                    <span className='text-2xl items-center flex'><ion-icon name="logo-twitter"></ion-icon></span>
+                    <a href="https://www.linkedin.com/in/pintu-kumar-%F0%9F%9A%80-84a304270/" className='text-lg'>X</a>
                 </div>
             </section>
         </main>
