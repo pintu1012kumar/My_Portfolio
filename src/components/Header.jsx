@@ -13,7 +13,7 @@ function Header() {
     }
     
     return (
-        <header className={`px-[4%] z-50 fixed top-0 left-0 bg-[#585757] right-0 lg:px-[10%] py-4 ${isNavActive ? '': 'border-b border-[#a2a2a2]'}`}>
+        <header className={`px-[4%] z-50 fixed top-0 left-0 bg-[#363735] right-0 lg:px-[10%] py-4 ${isNavActive ? '': 'border-b border-[#a2a2a2]'}`}>
             <nav className='flex justify-between items-end'>
                 <h1 className='text-3xl font-medium'>Pintu</h1>
 
